@@ -1,0 +1,116 @@
+<!DOCTYPE html> <!-- HTML5 deklaration -->
+<html lang="sv"> <!-- Språk deklaration -->
+    <head><!-- Sidans head börjar -->
+        <meta charset="utf-8"> <!-- Unicode Transformation Format – 8-bit -->
+        <meta name="keywords" content=""> <!-- Sidans nyckelord -->
+        <meta name="description" content=""> <!-- Sidans beskrivning -->
+        <meta name="author" content="Jeanette, Helena, Åsa och Hanne"> <!-- Sidans skapare/ägare -->
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png"><!-- favicon till tab -->
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png"><!-- favicon till adressrad -->
+        <link rel="icon" type="image/x-icon" href="favicon/favicon.ico">
+        <link rel="stylesheet" type="text/css" href="css/index.css" >
+        <title>Café Sive - Hem</title> <!-- Webbsidans title-->
+    </head>
+    <body>
+        <header id="main-header"><!-- Sidans header börjar -->
+            <nav id="navbar">
+                <a href="#">Hem</a>
+                <a href="meny.html">Meny</a>
+                <a href="catering.html">Catering</a>
+                <a href="omoss.html">Om oss</a>
+                <a href="jobbahososs.html">Jobba hos oss</a>
+            </nav>
+        </header>
+        <div class="banner"><!-- Site banner img inside here -->
+            <div class="logo"><img class="logoimg" src="images/logotyp/logo1.png" alt="Sidan logo."></div>
+            <div class="opening-hours">                   
+                <p class="opening-hours"> 
+                    Öppettider<br>
+                    Måndag - Fredag: 07.00 – 20.00<br>
+                    (Lunch serveras mellan 11-14)<br>
+                    Lördag: 08.00 – 20.00<br>
+                    Söndag: 08.00 – 18.00<br>
+                </p>
+            </div>
+        </div>
+        <main><!-- Main starts here -->
+            <article><!-- article starts here with empty header -->
+                <header hidden><h1>..</h1></header>
+                <section><!-- section starts here -->
+                    <div class="text-container"><!-- text container made for "Läs Mer" to work -->
+                    <input type="checkbox" id="check"><!-- check box that's needed for "Läs Mer" trick -->
+                    <img class="section-img" src="images/startsida/bakverk.jpg" alt="Bild av bakverk."><!-- section picture -->
+                    <header><h2>Känner du doften av nybakat?</h2></header>
+                        <p>
+                            Det har vi gjort sedan vi startade vår verksamhet här i Örebro. Här är vi uppe med tuppen och bakar så att du 
+                            ska kunna få färskbakat bröd till morgonkaffet! På Café Sive erbjuder vi luncher, goda bakverk i alla dess 
+                            former och matbröd att avnjuta i caféet eller för avhämtning.
+                        </p>
+                        <div class="content"><!-- hidden text under here will open when clicked "Läs mer" -->
+                        <p>
+                            Med undantag av några få dagar per år sprider sig doften av nybakat från vårt café längs hela Örebro stad.
+                        </p>
+                        <p>
+                            Välkommen in till oss och avnjut en fika med utsikt över den fina Svartån.
+                        </p>
+                        <h2>Öppettider</h2>                  
+                            <p> 
+                                Måndag - Fredag: 07.00 – 20.00<br>
+                                (Lunch serveras mellan 11-14)<br>
+                                Lördag: 08.00 – 20.00<br>
+                                Söndag: 08.00 – 18.00<br>
+                            </p>
+                            <img class="logo-mini" src="images/logotyp/logo2.png" alt="Sidans logo i mindre storlek.">
+                        </div>
+                        <label for="check">...Visa Mer</label><!-- label for opening the hidden text -->
+                    </div>
+                </section>
+                <section><!-- new section -->
+                    <img class="section-img" src="images/startsida/julbulle.jpg" alt="Bild av en julbulle.">
+                    <header><h2>Favoritsäsongen är här igen!</h2></header>
+                    <p>
+                        Enligt tradition kan du nu njuta av vår ljuvliga julfika som jul-latten, saffransbullen och självklart Café 
+                        Sives egna glögg. Kika förbi och hitta din julfavorit hos oss!
+                        <a href="meny.html">Se vår meny!</a> 
+                    </p>
+                    <img class="logo-mini" src="images/logotyp/logo2.png" alt="Sidans logo i mindre storlek.">
+                </section>   
+            </article><!-- article end -->
+            <div class="border-container"></div><!-- container for making a border -->
+                <div class="window-container"><!-- container for the middle img -->
+                    <div class="logo"><img class="logoimg" src="images/logotyp/logo2.png" alt="Sidan logo i transparent."></div><!-- logo on top of the container -->
+                </div>
+            <div class="border-container"></div>
+        <article><header hidden><h1>..</h1></header><!-- New article -->
+            <section>
+                <img class="section-img" src="images/startsida/fika.jpg" alt="Bild på fika.">
+                <header><h2>Vankas det fredagsfika på jobbet?</h2></header>
+                <p>
+                    Koppla av och beställ era favoritbakverk hos oss, så löser vi resten. Beställ snabbt och smidigt via vårt 
+                    formulär.<br>
+                    <a href="catering.html">Läs mer!</a>
+                </p>
+                <img class="logo-mini" src="images/logotyp/logo2.png" alt="Sidans logo i mindre storlek.">
+            </section>
+            <section>
+                <img class="section-img" src="images/startsida/barista.jpg" alt="Bild på barista.">
+                <header><h2>Bli en del av Café Sive!</h2></header>
+                <p>
+                    Är du en person med driv och passion för kaffe och bra service? 
+                    Då passar du toppen i vårt fikaglada team.
+                    Vänta inte, ta chansen och sök jobb hos oss idag!
+                    <a href="jobb.html">Läs mer!</a>
+                </p>
+                <img class="logo-mini" src="images/logotyp/logo2.png" alt="Sidans logo i mindre storlek.">
+            </section>
+        </article><!-- article end -->
+        </main><!-- main end -->
+        <footer><!-- page footer with links -->
+            <a class="float-left" href="https://www.facebook.com/" target="_blank"><img src="./icons/facebook.png" alt="Facebook logo."></a>
+            <a class="float-left" href="https://www.instagram.com/" target="_blank"><img src="./icons/instagram.png" alt="Instagram logo."></a>
+            <a class="float-right" href="tel:+46701234567">+46 701234567</a>
+            <a class="float-right" href="mailto:info@cafesive.se">info@cafesive.se</a>
+            <a class="float-right" href="images/omoss/karta.png" target="_blank">Glimmergatan 28, 70145, Örebro</a>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,234 @@
+
+/* CSS Document */
+/***********************************/
+/* CSS style for Café Sive - confirmation*/
+/* Jeanette, Helena, Åsa and Hanne */
+/************ ver. 1.0 *************/
+/***********************************/
+/* sites font for titles - downloaded from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Poppins:wght@300&display=swap');
+
+/* Style for html */
+html{
+	scroll-behavior: smooth;
+}
+/* media width */
+@media (max-width: 600px){
+	main{
+		width: 100%;
+		float: none;
+	}
+	.aside-content{
+		width: 100%;
+		float: none;
+	}
+}
+
+
+/* style for body - background img */ 
+body{
+	background: url(../../images/logotyp/logo2.png);
+	background-image: 50vh;
+	width: 100%;
+	top: 100%;
+	background-size: 50%;
+}
+/* Style for the banner */
+.banner{
+	top: 0;
+	position: relative;
+	width: 100%;
+	height: 50vh;
+	background: url("../images/colleagues.jpg");
+	background-color:#8A9D81;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: hidden;
+}
+/* style for logo */
+.logo{
+    position: relative;
+    height: 100%;
+    width: 100%;	
+}
+/* style for logo image */
+#logoimg{
+    border-radius: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+	height: 80%;
+}
+/* style for body element */
+body{
+    padding: 0;
+	margin: 0;
+	background-color: #ffffffcb;	
+}
+/* style for main header */
+#main-header{ 
+	top: 0;
+	position: -webkit-sticky; /* Vendor extention for Safari - gives css validator warning but is needed - not an error! */
+	position: sticky; /* Makes the navi to stick in the top and follow with scrolling */
+	z-index: 1;
+}
+/* style for navigation menu */
+#navbar{
+	top: 0;
+	width: 100%;
+	overflow: hidden;
+	background-color: #241B17;
+	font-family: poppins;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	z-index: 1;
+}
+/* style for navigation links */
+#navbar a{
+	float: left;   
+	font-size: 16px;
+	font-weight: normal;
+	color: #f0f0dcff;
+	text-align: left;
+	padding-left: 20px;
+	text-decoration: none;
+	padding: 14px 16px;
+	z-index: 10;
+}
+/* style for nav hover */
+#navbar a:hover{
+	background-color: #f0f0dcff;
+	color: #241B17;
+	transition: 0.7s;
+}
+/* style while navbar link is active */
+#navbar a:active
+{
+	color: rgb(75, 0, 0);
+	background-color: #000000;
+}
+/* container fix */
+#main-header::after{
+	content: '';
+	display: table;
+	clear: both;
+}
+/* Style for main */
+main{
+	padding-top: 0;
+	margin:  0em auto 0em;
+	z-index: 4;
+}
+/* Style for articles */
+article{
+	max-width: 80rem;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin:  0em auto 0em;
+	background-color: #f0f0dcff;
+	align-items: center;
+	font-size: 20px;
+	font-weight: bold;
+	right: 10px;
+	top: 20px;
+	font-family: poppins;
+}
+/* style for sections */
+section{
+	width: 90%;
+	display: inline-block;
+	align-items: center;
+	border-radius: 5px;
+	border: 1px dotted;
+	border-color: #545F47;
+	background-color: white;
+	margin: 0 40px;
+	padding: 40px 20px;
+	top: 0px;
+	vertical-align: top;
+	min-height: 150px;
+	min-width: 500px;
+}
+/* style for h1 titles */
+h1{
+	font: 50px dmdisplay;
+	color: #545F47;
+	padding-left: 25rem;
+}
+/* style for content text */
+p{
+	font: normal 15px poppins;
+	color: #241B17;
+	padding: 0 50px 0 50px;
+}
+
+/* style for links */
+a{
+	color: #545F47;
+	font-weight: 600;
+	text-decoration: none;
+}
+/* style for active links */
+a:active{
+	color: #8A9D81;
+}
+/* style for link hovers */
+a:hover{
+	color: #545F47;
+}
+/* style for visited links */
+a:visited{
+	color: #8A9D81;
+}
+/* float on the right - used in footer */
+.float-right{
+	float: right;
+}
+/* float on the left - used in footer */
+.float-left{
+	float: left;
+}
+/* Style for page footer */
+footer{
+	vertical-align: middle;
+	bottom: 0px;
+    position: sticky;
+	background-color: #1d1d1d;
+	word-spacing: normal;
+	text-decoration: none;
+	padding: 10px 0px 10px 0px;
+	font-size: 15px;
+	color: white;
+	font-family: poppins;
+	width: 100%;
+	overflow: hidden;
+	z-index: 1000;
+}
+/* style for footer links */
+footer a{
+	color: #ffffff;
+	text-decoration: none;
+	padding-left: 30px;
+	padding-right: 30px;
+	justify-content: center;
+	font-family: poppins;
+}
+/* style for footer link hover */
+footer a:hover{
+	color: #8A9D81;
+}
+/* style for footer active links */
+footer a:active{
+	color: #796350;
+}
+/* style for footer visited links */
+footer a:visited{
+	color: #7e7e7e;
+}
+
+
+

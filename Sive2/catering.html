@@ -1,0 +1,112 @@
+<!DOCTYPE html> <!-- HTML5 deklaration -->
+<html lang="sv"> <!-- Språk deklaration -->
+    <head><!-- Sidans head börjar -->
+        <meta charset="utf-8"> <!-- Unicode Transformation Format – 8-bit -->
+        <meta name="keywords" content=""> <!-- Sidans nyckelord -->
+        <meta name="description" content=""> <!-- Sidans beskrivning -->
+        <meta name="author" content="Jeanette, Helena, Åsa och Hanne"> <!-- Sidans skapare/ägare -->
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png"><!-- favicon till tab -->
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png"><!-- favicon till adressrad -->
+        <link rel="icon" type="image/x-icon" href="favicon/favicon.ico">
+        <link rel="stylesheet" type="text/css" href="css/catering.css" >
+        <title>Café Sive - Catering</title> <!-- Webbsidans title-->
+    </head>
+    <body>
+        <header id="main-header"><!-- Sidans header börjar -->
+            <nav id="navbar"><!-- Navbar -->
+                <a href="index.html">Hem</a>
+                <a href="meny.html">Meny</a>
+                <a href="#">Catering</a>
+                <a href="omoss.html">Om oss</a>
+                <a href="jobbahososs.html">Jobba hos oss</a>
+            </nav>
+        </header>
+        <main>
+            <article>
+<!--h1-->
+<h1>Catering</h1>
+<section>
+    <!--h2-->
+<h2>Catering till frukost, lunch och fika</h2>
+<p>Fyller någon år? Ska ni ha teambuilding-dag eller frukostmöte?
+    Oavsett festligheterna erbjuder vi på Café SIVE catering till frukost, lunch och fika.
+    Vi kan hjälpa dig att ta fram saftiga bagels och nybryggd kaffe till frukosten, grillade mackor till 
+    lunchen eller varför inte nybakade kakor till eftermiddagsfikat på kontoret, kalaset eller kundeventet. 
+    </p>
+    <br>
+<!--bild på cupcakes, sparat som webp för att minska storlek, testade med olika width och height-->
+    <figure>
+        <img src="./Images/catering/Birthdaycake.webp" alt="Cupcakes till kalas" width="475" height="300">
+        <figcaption>Cupcakes till kalaset</figcaption>
+        </figure>
+    <!--h2 igen-->
+    <h2>Vår cateringmeny</h2>
+    <p>Vi erbjuder allt från vår ordinarie meny och har ni andra önskemål kommer vi göra vårt bästa att möta dem. Vi förbereder 
+        och tillagar alltid er beställning samma dag som leverans i vårt café och bageri så att det är fräscht och gott. Vi hjälper till 
+        med leveransen av det ni har beställt enligt överenskommen tidpunkt. Du skickar in din förfrågan i formuläret nedan, så 
+        återkommer vi med en bekräftelse.</p>
+        <br>
+        <br>
+
+        <!--Formulär här, valde br och la till en submitknapp som fick namnet skicka-->
+        <!--Formulär fick form action för att skickas till tack.html-->
+
+<form action="tack.html" target="parent" method="get">
+    <fieldset>
+      
+        <legend>Förfrågan</legend>
+        
+    <div>
+        <label for="name">För och efternamn:</label><br>
+        <input type="text" id="name">
+    </div>
+    <div>
+        <label for="company">Företag</label><br>
+        <input type="text" id="company">
+    </div>
+    <div>
+        <label for="Organisation">Organisationsnummer</label><br>
+        <input type="text" id="Organisation">
+    </div>
+    <div>
+        <label for="phone">Telefonnummer</label><br>
+        <input type="text" id="phone">
+    </div> 
+    <div>
+        <label for="email">E-postadress</label><br>
+        <input type="text" id="email">
+    </div>
+    <div>
+        <label for="adress">Adress</label><br>
+        <input type="text" id="adress">
+    </div>
+    <div>
+        <label for="delivery">Leveransdag</label><br>
+        <input type="text" id="delivery">
+    </div>
+    <div>
+        <label for="allergy">Särskilda önskemål, t.ex. allergier</label><br>
+        <input type="text" id="allergy">
+    </div> 
+    <br>
+    <div>
+        <input type="submit" value="Skicka">
+    </div>
+</fieldset>
+</form>
+</section>
+
+<!--Länk till Meny här-->
+       
+            </article><!-- article end -->
+        </main><!-- main end -->
+        <footer><!-- page footer with links -->
+            <a class="float-left" href="https://www.facebook.com/" target="_blank"><img src="./icons/facebook.png" alt="Facebook logo."></a>
+            <a class="float-left" href="https://www.instagram.com/" target="_blank"><img src="./icons/instagram.png" alt="Instagram logo."></a>
+            <a class="float-right" href="tel:+46701234567">+46 701234567</a>
+            <a class="float-right" href="mailto:info@cafesive.se">info@cafesive.se</a>
+            <a class="float-right" href="images/omoss/karta.png" target="_blank">Glimmergatan 28, 70145, Örebro</a>
+        </footer>
+    </body>
+</html>
+    
